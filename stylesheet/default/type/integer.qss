@@ -1,0 +1,13 @@
+DatabaseLineEdit {
+
+    color: #3cd8d8;
+    position: right;
+
+}
+
+DatabaseLabel {
+
+    color: #3cd8d8;
+    position: right;
+
+}

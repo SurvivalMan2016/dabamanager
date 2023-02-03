@@ -1,0 +1,181 @@
+QWidget {
+
+    background: #090909;
+    color: #e8e8f6;
+    font: bold "Times New Roman";
+    border: #1b1b1c;
+
+}
+
+QGroupBox#projectGroup {
+
+    margin: 5px;
+
+}
+
+QLabel#logo {
+
+    margin: 5px;
+
+}
+
+QPushButton {
+
+    background: #333335;
+    max-height: 14px;
+    min-height: 12px;
+    font-style: bold;
+    border: 0px solid #8f8f91;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+QPushButton#dbmSettings {
+
+    border-radius: 8px;
+    margin: 0px;
+
+}
+
+QPushButton:hover {
+
+    background: #49494c;
+    border: 1px solid #8f8f91;
+
+}
+
+QPushButton:pressed {
+
+    background: #3a3a3c;
+
+}
+
+QLabel#dbmLogo {
+
+    padding: 10px;
+    border: 0px;
+
+}
+
+
+QListWidget::item:hover {
+
+    background: #1c1b1b;
+
+}
+
+QListWidget::item:selected {
+
+    background: #363535;
+    border-color: 1px solid #e8dcdc;
+
+}
+
+QLineEdit {
+
+    background: #1e1e1f;
+    border: none;
+
+}
+
+QTabBar::tab {
+
+    background: #1e1e1f;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    min-height: 14px;
+    min-width: 15px;
+    padding: 5px;
+
+}
+
+QTabBar::tab:selected {
+
+    background: #494949;
+
+}
+
+QTabWidget {
+
+    background: #3f3f41;
+
+}
+
+QTableWidget {
+
+    background: #131313;
+    selection-color: #bfbfc3;
+    selection-background-color: #464648;
+
+}
+
+QHeaderView::section {
+
+    background: #2e2e2e;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    min-height: 22px;
+
+}
+
+QMenu {
+
+    background: #151517;
+
+}
+
+QMenu::item:selected {
+
+    background: #5a5a5b;
+
+}
+
+QMenu::item:pressed {
+
+    background: #494949;
+
+}
+
+QComboBox {
+    border: 1px solid #131313;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+    background: #1e1e1f;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox QAbstractItemView {
+    border: none;
+    selection-background-color: #494949;
+}
+
+QComboBox QAbstractItemView:pressed {
+    border: none;
+    background: #090909;
+}
+
+QAbstractItemView QLabel {
+
+    border: none;
+
+}
+
+QAbstractItemView QLabel:pressed {
+
+    border: none;
+    background: #090909;
+
+}

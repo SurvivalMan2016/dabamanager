@@ -1,0 +1,46 @@
+#COMMON
+dialogGroup.dialogAccept: "Подтвердить"
+dialogGroup.dialogDecline: "Отменить"
+#TITLES
+mainWindow.title: "Менеджер базы данных"
+settingWindow.title: "Настройки"
+databaseWindow.title: "{} - Менеджер баз данных"
+dbCreateDialog.title: "Создание базы данных"
+tbCreateDialog.title: "Создание таблицы"
+clCreateDialog.title: "Создание колонки"
+rcdCreateDialog.title: "Добавление записи"
+errorDialog.title: "Ошибка"
+#PROJECT MANAGER
+mainWindow.projectGroup.dbOpen: "Открыть"
+mainWindow.projectGroup.dbCreate: "Новая база данных"
+#DB EDITING
+dbCreateDialog.name: "Введите название базы данных:"
+dbEditMenu.tbAdd: "Создать таблицу"
+dbEditMenu.tbRemove: "Удалить таблицу"
+#TABLE MANAGER
+tbCreateDialog.name: "Введите название таблицы:"
+tbEditMenu.tbAddCl: "Добавить колонку"
+tbEditMenu.tbRemoveCl: "Удалить колонку"
+tbEditMenu.tbAddRcd: "Добавить запись"
+tbEditMenu.tbRemoveRcd: "Удалить запись"
+#COLUMN MANAGER
+clNameGroup.clNameLabel: "Название колонки"
+clNameGroup.clName: "обязательно"
+clTypeGroup.clTypeLabel: "Тип данных"
+clIsPrimaryGroup.clIsPrimary: "Первичный ключ"
+clIsAutoIncrementGroup.clIsAutoIncrement: "Автоувеличение значения"
+clIsNullGroup.clIsNull: "Ненулевое значение"
+clIsUniqueGroup.clIsUnique: "Уникальное значение"
+clDefaultGroup.clDefaultLabel: "Значение по умолчанию"
+clDefaultGroup.clDefault: "необязательно"
+#RECORD MANAGER
+rcdEl.required: "обязательно"
+rcdEl.notRequired: "необязательно"
+#ERRORS
+errorDialog.emptyDbName: "Название базы данных не может быть пустым"
+errorDialog.emptyTbName: "Название таблицы не может быть пустым"
+errorDialog.wrongTbName: "Название таблицы не может начинаться с сочетания \"sqlite_\""
+errorDialog.emptyClName: "Название колонки не может быть пустым"
+errorDialog.wrongClDefaultInteger: "Значение \"default\" должно быть целым числом"
+errorDialog.wrongClDefaultReal: "Значение \"default\" должно быть десятичной дробьюб написанной через одну точку"
+errorDialog.emptyRcdEl: "Значение \"{}\" не может быть пустым"

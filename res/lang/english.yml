@@ -1,0 +1,47 @@
+#TITLES
+mainWindow.title: "Database Manager"
+settingWindow.title: "Preferences"
+databaseWindow.title: "{} - Database Manager"
+dbCreateDialog.title: "Create Database"
+tbCreateDialog.title: "Create Table"
+clCreateDialog.title: "Add Column"
+rcdCreateDialog.title: "Add Record"
+errorDialog.title: "Error"
+#PROJECT MANAGER
+mainWindow.projectGroup.dbOpen: "Open Database"
+mainWindow.projectGroup.dbCreate: "New Database"
+#DB EDITING
+dbCreateDialog.name: "Enter DB Name:"
+dbEditMenu.tbAdd: "Create Table"
+dbEditMenu.tbRemove: "Delete Table"
+#TABLE MANAGER
+tbCreateDialog.name: "Enter Table Name:"
+tbEditMenu.tbAddCl: "Add Column"
+tbEditMenu.tbRemoveCl: "Remove Column"
+tbEditMenu.tbAddRcd: "Add Record"
+tbEditMenu.tbRemoveRcd: "Remove Record"
+#COLUMN MANAGER
+clNameGroup.clNameLabel: "Column Name"
+clNameGroup.clName: "required"
+clTypeGroup.clTypeLabel: "Data Type"
+clIsPrimaryGroup.clIsPrimary: "Primary Key"
+clIsAutoIncrementGroup.clIsAutoIncrement: "Autoincrement"
+clIsNullGroup.clIsNull: "Not Null"
+clIsUniqueGroup.clIsUnique: "Unique"
+clDefaultGroup.clDefaultLabel: "Default value"
+clDefaultGroup.clDefault: "not required"
+#RECORD MANAGER
+rcdEl.required: "required"
+rcdEl.notRequired: "not required"
+#ERRORS
+errorDialog.emptyDbName: "DB name cannot be empty"
+errorDialog.emptyTbName: "Table name cannot be empty"
+errorDialog.wrongTbName: "Table name cannot starts with \"sqlite_\""
+errorDialog.emptyClName: "Column name cannot be empty"
+errorDialog.wrongClDefault: "Value \"default\" cannot be empty"
+errorDialog.wrongClDefaultInteger: "Value \"default\" must be integer"
+errorDialog.wrongClDefaultReal: "Value \"default\" must one-dot-separated real"
+errorDialog.emptyRcdEl: "Value \"{}\" cannot be empty"
+#DIALOG
+dialogGroup.dialogAccept: "Accept"
+dialogGroup.dialogDecline: "Decline"

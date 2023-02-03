@@ -1,0 +1,28 @@
+{
+  "style-id": "default",
+  "name": "SurvivalMania",
+  "desc": "What Database Manager should actually look like",
+  "sheet": "common/style.qss",
+  "type-info": [
+    {
+      "type": "INTEGER",
+      "sheet": "type/integer.qss"
+    },
+    {
+      "type": "REAL",
+      "sheet": "type/real.qss"
+    },
+    {
+      "type": "TEXT",
+      "sheet": "type/text.qss"
+    },
+    {
+      "type": "BLOB",
+      "sheet": "type/blob.qss"
+    },
+    {
+      "type": "NULL",
+      "sheet": "type/null.qss"
+    }
+  ]
+}
