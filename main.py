@@ -1,8 +1,9 @@
+import io
 import sqlite3
 import sys
 import loc_api
 import config_api
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtGui, QtWidgets
 
 DB: sqlite3.Connection
 CURSOR: sqlite3.Cursor
@@ -231,7 +232,7 @@ class SettingsWindow(QtWidgets.QWidget):
         layout.addWidget(self.item_group)
         self.configurator = QtWidgets.QWidget()
         layout.addWidget(self.configurator)
-        self.item_group.setCurrentRow(1)
+        self.item_group.setCurrentRow(0)
         self.load_settings()
         self.item_group.itemActivated.connect(self.load_settings)
 

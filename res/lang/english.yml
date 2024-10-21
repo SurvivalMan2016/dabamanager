@@ -1,3 +1,6 @@
+#COMMON
+dialogGroup.dialogAccept: "Accept"
+dialogGroup.dialogDecline: "Decline"
 #TITLES
 mainWindow.title: "Database Manager"
 settingWindow.title: "Preferences"
@@ -42,6 +45,3 @@ errorDialog.wrongClDefault: "Value \"default\" cannot be empty"
 errorDialog.wrongClDefaultInteger: "Value \"default\" must be integer"
 errorDialog.wrongClDefaultReal: "Value \"default\" must one-dot-separated real"
 errorDialog.emptyRcdEl: "Value \"{}\" cannot be empty"
-#DIALOG
-dialogGroup.dialogAccept: "Accept"
-dialogGroup.dialogDecline: "Decline"

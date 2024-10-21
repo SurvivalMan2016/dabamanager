@@ -15,6 +15,7 @@ def load_lang() -> None:
     for file in os.listdir('res/lang'):
         with open(f'res/lang/{file}', 'r', encoding='utf8') as yml:
             LANG[file[:-4]] = yaml.load(yml, Loader=yaml.CLoader)
+    log()
 
 
 def get_lang(scope) -> str:
@@ -30,10 +31,10 @@ def get_lang(scope) -> str:
     else:
         key = scope
 
-    if key in LANG[config_api.CONFIG['LANGUAGE']['selectedLang']]:
-        return LANG[config_api.CONFIG['LANGUAGE']['selectedLang']][key]
-    elif key in LANG[config_api.CONFIG['LANGUAGE']['defaultLang']]:
-        return LANG[config_api.CONFIG['LANGUAGE']['defaultLang']][key]
+    if key in LANG[config_api.CONFIG['APPEARANCE']['lang']]:
+        return LANG[config_api.CONFIG['APPEARANCE']['lang']][key]
+    elif key in LANG['english']:
+        return LANG['english'][key]
     return key
 
 
@@ -50,3 +51,7 @@ def is_valid_key(key: str) -> bool:
     if any(key in lang for lang in LANG):
         return True
     return False
+
+
+def log():
+    print(LANG)

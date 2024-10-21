@@ -2,7 +2,7 @@
 dialogGroup.dialogAccept: "Подтвердить"
 dialogGroup.dialogDecline: "Отменить"
 #TITLES
-mainWindow.title: "Менеджер базы данных"
+mainWindow.title: "Database Manager"
 settingWindow.title: "Настройки"
 databaseWindow.title: "{} - Менеджер баз данных"
 dbCreateDialog.title: "Создание базы данных"

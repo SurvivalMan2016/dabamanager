@@ -3,7 +3,7 @@ QWidget {
     background: #090909;
     color: #e8e8f6;
     font: bold "Times New Roman";
-    border: #1b1b1c;
+    border: none;
 
 }
 
@@ -20,7 +20,6 @@ QLabel#logo {
 }
 
 QPushButton {
-
     background: #333335;
     max-height: 14px;
     min-height: 12px;
